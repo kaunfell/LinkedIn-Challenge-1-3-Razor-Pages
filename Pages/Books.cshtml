@@ -1,0 +1,51 @@
+﻿@page
+@model razor_pages_challenge1.Pages.BooksModel
+@{
+}
+
+
+@section Welcome
+{
+<div class="text-center p-5">
+    <h1>Welcome to the Book List! 📚</h1>    
+</div>
+}
+
+
+
+<div class="m-5">
+    <table class="table-secondary table">
+        <thead>
+                <th class="table-primary">Famous Scifi books</th>      
+        </thead>
+        <tbody>
+        
+        <tr >
+            <th>Author</th>
+            @foreach (var author in @Model.AuthorNames)
+            {
+                
+                <td>@author</td>
+                
+            }
+        </tr>
+        <tr>
+        <th>Book</th>    
+        @foreach (var titles in @Model.BookTitles)
+            {
+                
+                
+                 
+                <td>@titles</td>
+                  
+                
+            }
+        </tr>
+      
+
+        </tbody>        
+    </table>
+
+</div>
+
+
