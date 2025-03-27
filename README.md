@@ -1,5 +1,5 @@
 # Razor Pages Challenge 📚
-##### Linkedin Pages Challenge 1/3
+##### Linkedin Course Challenge 1/3
 
 This challenge was about:
 -create Razor Pages with .NET CLI
